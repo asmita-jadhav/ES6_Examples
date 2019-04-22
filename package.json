@@ -1,0 +1,21 @@
+{
+  "name": "es6_todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 src/index.js -o public/dist/bundle.js",
+    "build": "http-server -p 3500"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.11.1",
+    "jquery": "^3.4.0",
+    "requirejs": "^2.3.6"
+  },
+  "dependencies": {}
+}
